@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>CRUD Banco de Dados</title>
+</head>
+<body>
+    <header> Selecione a operação com o Banco de Dados</header>
+    <section>
+        <div>
+            <a href="formInsert.php" id="insert">Inserir - Create/Insert</a>
+        </div>
+        <div>
+            <a href="formReadInfo.php" id="read">Visualizar - Read - Pesquisar</a>
+        </div>
+        <div>
+            <a href="readAllUpdate.php" id="update"> Ver todos - Atualizar</a>
+        </div>
+        <div>
+            <a href="readAllDelete.php" id="delete"> Ver todos - Deletar</a>
+        </div>
+    </section>
+</body>
+</html>
